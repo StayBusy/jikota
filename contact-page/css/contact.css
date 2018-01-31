@@ -14,6 +14,12 @@
     border: 0;
 }
 
+.fa-map-marker,
+.fa-phone,
+.fa-envelope-o {
+    color: #fff;
+}
+
 .thead {
     border-bottom: 1px solid;
 }
@@ -53,8 +59,4 @@
 .contact-info td {
     color: white;
     font-size: 14px;
-}
-
-.fa {
-    color: #fff;
 }
