@@ -36,11 +36,6 @@
     display: inline;
 }
 
-
-/* .footer-nav {
-    float: right;
-} */
-
 .footer-nav li {
     display: inline-block;
     padding: 5px;
@@ -51,7 +46,15 @@
     text-decoration: none;
 }
 
-.contact-info p {
-    padding-top: 5px;
-    padding-bottom: 5px;
+.contact-info h4 {
+    color: white;
+}
+
+.contact-info td {
+    color: white;
+    font-size: 14px;
+}
+
+.fa {
+    color: #fff;
 }
