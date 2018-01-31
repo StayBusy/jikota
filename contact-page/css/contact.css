@@ -1,0 +1,57 @@
+.position-relative {
+    position: relative;
+    top: -40vh;
+    padding-top: 20px;
+    margin-bottom: -20vh;
+}
+
+.map {
+    height: 40%;
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
+
+.thead {
+    border-bottom: 1px solid;
+}
+
+.align-middle {
+    vertical-align: middle;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.social-icons a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn-social-icon {
+    display: inline;
+}
+
+
+/* .footer-nav {
+    float: right;
+} */
+
+.footer-nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.footer-nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-info p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
