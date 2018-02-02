@@ -1,23 +1,46 @@
-.position-relative {
-    position: relative;
-    top: -40vh;
-    padding-top: 20px;
-    margin-bottom: -20vh;
+.about-header {
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #05668D;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.map {
-    height: 40%;
+.img-overlay {
+    float: right;
+    position: relative;
+}
+
+.laptop-frame {
+    margin-bottom: -100px;
+    height: 40vh;
+    width: 30vw;
+}
+
+.laptop-inner {
+    margin-bottom: -100px;
+    height: 32vh;
+    width: 23.1vw;
+}
+
+.img-child {
+    top: 15px;
+    left: 47px;
+    position: absolute;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-title {
+    text-align: center;
 }
 
 .table-borderless td,
 .table-borderless th {
     border: 0;
-}
-
-.fa-map-marker,
-.fa-phone,
-.fa-envelope-o {
-    color: #fff;
 }
 
 .thead {
