@@ -1,41 +1,35 @@
-.about-header {
-    color: #fff;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    background-color: #05668D;
-    padding-left: 7vw;
-    padding-right: 7vw;
+.carousel-indicators li {
+    background-color: #fff;
+    width: 1vw;
+    height: 2vh;
+    border-radius: 50%;
+    margin-top: 1vh;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
 }
 
-.img-overlay {
-    float: right;
-    position: relative;
+.carousel-indicators .active {
+    background-color: rgb(148, 226, 148);
 }
 
-.laptop-frame {
-    margin-bottom: -15vh;
-    height: 40vh;
-    width: 30vw;
-}
-
-.laptop-inner {
-    margin-bottom: -15vh;
-    height: 32vh;
-    width: 23.1vw;
-}
-
-.img-child {
-    top: 2.3vh;
-    left: 3.45vw;
+.carousel-caption {
     position: absolute;
+    top: 20vh;
 }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.sign-up {
+    padding-top: 30vh;
+    padding-bottom: 5vh;
+    margin-bottom: 40vh;
 }
 
-.card-title {
-    text-align: center;
+.sign-form {
+    margin-right: 20vw;
+    margin-left: 20vw;
+}
+
+#inputEmail {
+    width: 30vw;
 }
 
 
@@ -44,6 +38,10 @@
 .jikota-img {
     display: flex;
     align-items: center;
+}
+
+.company-details {
+    margin-top: 5vh;
 }
 
 .company-details ul li:first-child {

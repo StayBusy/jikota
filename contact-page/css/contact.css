@@ -19,6 +19,18 @@
     float: right;
 }
 
+.contact-info h4 {
+    color: white;
+}
+
+.contact-info td {
+    color: white;
+    font-size: 14px;
+}
+
+
+/* --- Footer and company details --- */
+
 .jikota-img {
     display: flex;
     align-items: center;
@@ -65,13 +77,4 @@
 .footer-nav a {
     color: #000;
     text-decoration: none;
-}
-
-.contact-info h4 {
-    color: white;
-}
-
-.contact-info td {
-    color: white;
-    font-size: 14px;
 }
