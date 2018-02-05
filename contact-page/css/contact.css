@@ -9,24 +9,31 @@
     height: 40%;
 }
 
-.table-borderless td,
-.table-borderless th {
-    border: 0;
-}
-
 .fa-map-marker,
 .fa-phone,
 .fa-envelope-o {
     color: #fff;
 }
 
-.thead {
-    border-bottom: 1px solid;
+.float-right {
+    float: right;
 }
 
 .jikota-img {
     display: flex;
     align-items: center;
+}
+
+.company-details ul li:first-child {
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+    border-bottom-style: inset;
+}
+
+.company-details ul {
+    list-style: none;
+    margin-right: -3vw;
+    margin-left: -3vw;
 }
 
 .social-icons li {

@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="contact page of jikota product">
     <meta name="author" content="Albert Okon">
-    <title>About Us Page</title>
+    <title>Bug Report Page</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom styles for this page -->
-    <link rel="stylesheet" type="text/css" href="css/about-us.css">
+    <link rel="stylesheet" type="text/css" href="css/report-a-bug.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
 
 </head>
 
-<body>
+<body class="contact-page">
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
             <a class="navbar-brand" href="#"><img src="images/Jikota_logo.png" alt="Jikota logo"></a>
@@ -28,55 +28,45 @@
                 <div class="navbar-nav nav-pills ml-auto">
                     <a class="nav-item nav-link" href="#">Features</a>
                     <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link active" href="#">About Us <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Contact Us</a>
+                    <a class="nav-item nav-link" href="#">About Us</a>
+                    <a class="nav-item nav-link bg-success" href="#">Contact Us <span class="sr-only">(current)</span></a>
                 </div>
             </div>
         </nav>
-
-        <div class="container-fluid about-header">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="img-overlay">
-                        <img src="images/laptop-frame.png" alt="" class="laptop-frame">
-                        <div class="img-child">
-                            <img src="images/laptop-inner.png" alt="" class="laptop-inner">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
     <main class="main">
-        <div class="container my-5 py-5">
-            <div class="card-deck">
-                <div class="card card-inverse">
-                    <img class="card-img-top" src="images/about-us-card(1).png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
+        <div class="container py-5">
+            <form>
+                <div class="text-center">
+                    <h2>Bug Report</h2>
+                    <p>
+                        <h5 class="w-50 mx-auto">Please send us this error report to help us fix the problem and improve this platform</h5>
+                    </p>
                 </div>
-                <div class="card card-inverse">
-                    <img class="card-img-top" src="images/about-us-card(2).png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control" id="bugReport" rows="5" draggable="false"></textarea>
                 </div>
-                <div class="card card-inverse">
-                    <img class="card-img-top" src="images/about-us-card(3).png" alt="Card image">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    </div>
+                <small class="form-group text-justify" id="shortMessage">Jikota would like to have your contact e-mail address to get more information form you to help us fix this issue. The jikota team may contact you if they require the steps to repeoduce this issue, or notify you once there is a solution or fix.</small>
+
+                <div class="form-check" id="emailCheck">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input">
+                      Include email address in this report
+                    </label>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1"></label>
+                    <input type="email" class="form-control col-md-4" id="emailInput">
+                </div>
+                <a href="" class="form-group">What does this report contain?</a>
+                <div class="my-4 messageConfirm">
+                    <button type="submit" class="btn btn-success mx-2">Send Report</button>
+                    <button type="reset" class="btn btn-secondary mx-2">Don't Send</button>
+                </div>
+            </form>
         </div>
+        <hr class="style">
         <div class="container-fluid">
             <div class="row company-details text-center">
                 <div class="col-md-1 jikota-img">
@@ -167,7 +157,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- Custom JavaScript -->
-    <script src="js/about-us.js"></script>
+    <script src="js/report-a-bug.js"></script>
 
 </body>
 

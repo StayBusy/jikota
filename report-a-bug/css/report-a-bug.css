@@ -1,41 +1,24 @@
-.about-header {
-    color: #fff;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    background-color: #05668D;
-    padding-left: 7vw;
-    padding-right: 7vw;
+#bugReport {
+    margin-bottom: -3vh;
 }
 
-.img-overlay {
-    float: right;
-    position: relative;
+#shortMessage {
+    font-size: 14px;
 }
 
-.laptop-frame {
-    margin-bottom: -15vh;
-    height: 40vh;
-    width: 30vw;
+#emailInput {
+    margin-top: -3vh;
 }
 
-.laptop-inner {
-    margin-bottom: -15vh;
-    height: 32vh;
-    width: 23.1vw;
+.messageConfirm {
+    margin-left: 30vw;
+    margin-right: 30vw;
 }
 
-.img-child {
-    top: 2.3vh;
-    left: 3.45vw;
-    position: absolute;
-}
-
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card-title {
-    text-align: center;
+hr.style {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
 }
 
 .jikota-img {
@@ -84,13 +67,4 @@
 .footer-nav a {
     color: #000;
     text-decoration: none;
-}
-
-.contact-info h4 {
-    color: white;
-}
-
-.contact-info td {
-    color: white;
-    font-size: 14px;
 }
