@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="contact page of jikota product">
     <meta name="author" content="Albert Okon">
-    <title>Bug Report Page</title>
+    <title>Sign Up</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Custom styles for this page -->
-    <link rel="stylesheet" type="text/css" href="css/report-a-bug.css">
+    <link rel="stylesheet" type="text/css" href="css/reglog.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
 
 </head>
@@ -36,36 +36,42 @@
         </nav>
     </header>
     <main class="main">
-        <div class="container py-5">
-            <form>
-                <div class="text-center">
-                    <h2>Bug Report</h2>
-                    <p>
-                        <h5 class="w-50 mx-auto">Please send us this error report to help us fix the problem and improve this platform</h5>
-                    </p>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/SignIn_Reg.png" alt="" class="w-100 img">
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1"></label>
-                    <textarea class="form-control" id="bugReport" rows="5" draggable="false"></textarea>
+                <div class="col-md-4 offset-md-1 text-center">
+                    <div class="welcome">
+                        <h2>Registration</h2>
+                        <span class="line1"></span>
+                        <span class="star">
+                          <img src="images/star.png" alt="">
+                        </span>
+                        <span class="line2"></span>
+                    </div>
+                    <form>
+                        <div class="form-group">
+                            <label class="form-control-label" for="formGroupExampleInput">Full Name</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="name?">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Your Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="name@domain.com">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Your password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="******">
+                        </div>
+                        <div class="form-text terms">
+                            <p>By signing up you agreed to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></p>
+                        </div>
+                        <button type="submit" class="btn btn-success sign">Sign Up</button>
+                    </form>
+                    <p>Already have an account? <a href="signIn.html" class="underline">Sign In</a></p>
                 </div>
-                <small class="form-group text-justify text-muted" id="shortMessage">Jikota would like to have your contact e-mail address to get more information form you to help us fix this issue. The jikota team may contact you if they require the steps to repeoduce this issue, or notify you once there is a solution or fix.</small>
-
-                <div class="form-check" id="emailCheck">
-                    <label class="form-check-label">
-                      <input type="checkbox" class="form-check-input">
-                      Include email address in this report
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlInput1"></label>
-                    <input type="email" class="form-control col-md-4" id="emailInput">
-                </div>
-                <a href="" class="form-group">What does this report contain?</a>
-                <div class="my-4 messageConfirm">
-                    <button type="submit" class="btn btn-success mx-2">Send Report</button>
-                    <button type="reset" class="btn btn-secondary mx-2">Don't Send</button>
-                </div>
-            </form>
+            </div>
         </div>
         <hr class="style">
         <div class="container-fluid">
@@ -158,7 +164,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!-- Custom JavaScript -->
-    <script src="js/report-a-bug.js"></script>
+    <script src="js/reglog.js"></script>
 
 </body>
 
